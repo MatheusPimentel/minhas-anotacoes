@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundo"
+    tools:context="matheuspimentel.androidstudio.com.minhasanotaes.MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        app:srcCompat="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/textoId"
+        android:layout_width="320dp"
+        android:layout_height="360dp"
+        android:layout_alignEnd="@+id/imageView"
+        android:layout_alignRight="@+id/imageView"
+        android:layout_centerVertical="true"
+        android:background="@drawable/fundo_anotacao"
+        android:ems="10"
+        android:gravity="start"
+        android:inputType="textMultiLine|textPersonName"
+        android:paddingBottom="5dp"
+        android:paddingLeft="35dp"
+        android:paddingRight="5dp"
+        android:paddingTop="5dp"
+        android:textAlignment="viewStart"
+        android:textColor="#41342E"
+        android:textSize="30sp" />
+
+    <ImageButton
+        android:id="@+id/salvarId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        app:srcCompat="@drawable/botao_salvar" />
+
+</RelativeLayout>
